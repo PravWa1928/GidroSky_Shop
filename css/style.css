@@ -1484,3 +1484,111 @@ button.catalog_filter-btnline {
 .product-card_buttons a + a {
     margin-left : 30px;
 }
+
+.card_tabs {
+    margin-bottom : 100px;
+}
+
+.card_tab-box {
+    background      : #F0F0F4;
+    display         : flex;
+    justify-content : space-around;
+    align-items     : center;
+    padding         : 22px 0;
+    margin-bottom   : 50px;
+}
+
+.card_tab {
+    font-size   : 20px;
+    line-height : 24px;
+    color       : #2F3035;
+    opacity     : 0.6;
+
+}
+
+.card_tab.tab-active {
+    border-bottom : 2px solid #1c62cd;
+    opacity       : 1;
+}
+
+.card_top-line {
+    margin-bottom : 10px;
+}
+
+.card_label-search {
+    font-size   : 17px;
+    line-height : 20px;
+    color       : rgba(47, 48, 53, 0.7);
+}
+
+.card_input-search {
+    background    : #F0F0F4;
+    border-radius : 3px;
+    margin-left   : 17px;
+    padding       : 9px 37px 9px 17px;
+    border        : none;
+    margin-right  : 100px;
+}
+
+.card_label-pickup {
+    margin-left : 54px;
+    font-size   : 17px;
+    line-height : 20px;
+    color       : rgba(47, 48, 53, 0.7);
+}
+
+.card_list-item {
+    padding       : 20px 0;
+    border-bottom : 1px solid rgba(47, 48, 53, 0.1);
+    display       : flex;
+    font-size     : 16px;
+    line-height   : 22px;
+    color         : rgba(47, 48, 53, 0.7);
+}
+
+.card_list-item-title {
+    font-size   : 20px;
+    color       : #2F3035;
+    line-height : 24px;
+}
+
+.card_list-address {
+    width        : 220px;
+    margin-right : 80px;
+}
+
+.card_list-workhours {
+    width        : 157px;
+    margin-right : 96px;
+}
+
+.workhours {
+    display         : flex;
+    justify-content : space-between;
+
+}
+
+.card_list-available {
+    width        : 140px;
+    margin-right : 60px;
+}
+
+.card_list-num {
+    width : 104px;
+}
+
+.card_list-btn {
+    margin-left : auto;
+}
+
+.card_list-btn button {
+    font-size      : 13px;
+    line-height    : 16px;
+    letter-spacing : 0.12em;
+    text-transform : uppercase;
+    padding        : 10px 41px;
+    background     : #1c62cd;
+    border-radius  : 3px;
+    color          : #FFFFFF;
+    border         : none;
+}
